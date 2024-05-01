@@ -7,36 +7,36 @@ import math
 #Make Functions
 #Dark Theme Function
 def DarkTheme(*args):
-    style.configure('mainframe.TFrame', background="#010924")
+    style.configure('mainframe.TFrame', background="#333333")
 
-    style_label1.configure('Label1.TLabel', background="#010924", foreground="white")
-    style_label2.configure('Label2.TLabel', background="#010924", foreground="white")
+    style_label1.configure('Label1.TLabel', background="#333333", foreground="white")
+    style_label2.configure('Label2.TLabel', background="#333333", foreground="white")
 
-    style_button_num.configure('Button_Num.TButton', background="#00044A", foreground="white")
-    style_button_num.map('Button_Num.TButton', background=[('active', '#000AB1')])
+    style_button_num.configure('Button_Num.TButton', background="#FFA500", foreground="white")
+    style_button_num.map('Button_Num.TButton', background=[('active', '#bf5b10')])
 
-    style_button_erase.configure('Button_Eraser.TButton', background="#010924", foreground="white")
-    style_button_erase.map('Button_Eraser.TButton', background=[('active', '#000AB1')])
+    style_button_erase.configure('Button_Eraser.TButton', background="#666666", foreground="white")
+    style_button_erase.map('Button_Eraser.TButton', background=[('active', '#bf5b10')])
 
-    style_button_left.configure('Button_left.TButton', background="#010924", foreground="white")
-    style_button_left.map('Button_left.TButton', background=[('active', '#000AB1')])
+    style_button_left.configure('Button_left.TButton', background="#666666", foreground="white")
+    style_button_left.map('Button_left.TButton', background=[('active', '#bf5b10')])
 
 
 #Light Theme Function
 def LightTheme(*args):
-    style.configure('mainframe.TFrame', background="#DBDBDB", foreground="black")
+    style.configure('mainframe.TFrame', background="#DBDBDB", foreground="#333333")
 
-    style_label1.configure('Label1.TLabel', background="#DBDBDB", foreground="black")
-    style_label2.configure('Label2.TLabel', background="#DBDBDB", foreground="black")
+    style_label1.configure('Label1.TLabel', background="#DBDBDB", foreground="#333333")
+    style_label2.configure('Label2.TLabel', background="#DBDBDB", foreground="#333333")
 
-    style_button_num.configure('Button_Num.TButton', background="#FFFFFF", foreground="black")
+    style_button_num.configure('Button_Num.TButton', background="#FFFFFF", foreground="#333333")
     style_button_num.map('Button_Num.TButton', background=[('active', '#008080')])
     
-    style_button_erase.configure('Button_Eraser.TButton', background="#CECECE", foreground="black")
-    style_button_erase.map('Button_Eraser.TButton', background=[('active', '#858585')])
+    style_button_erase.configure('Button_Eraser.TButton', background="#CECECE", foreground="#333333")
+    style_button_erase.map('Button_Eraser.TButton', background=[('active', '#008080')])
     
-    style_button_left.configure('Button_left.TButton', background="#CECECE", foreground="black")
-    style_button_left.map('Button_left.TButton', background=[('active', '#858585')])
+    style_button_left.configure('Button_left.TButton', background="#CECECE", foreground="#333333")
+    style_button_left.map('Button_left.TButton', background=[('active', '#008080')])
 
 #Input Data Function
 def InputData(key):
@@ -143,17 +143,17 @@ style_label2.configure('Label2.TLabel', font="consolas 40", anchor="E")
 
 #Style of Buttons
 style_button_num = ttk.Style()
-style_button_num.configure('Button_Num.TButton', font="consolas 22", width=5, background="#FFFFFF", relief="flat")
-style_button_num.map('Button_Num.TButton', background=[('active', '#B9B9B9')])
+style_button_num.configure('Button_Num.TButton', font="consolas 22", width=5, background="#FFFFFF", relief="flat", foreground="#333333")
+style_button_num.map('Button_Num.TButton', background=[('active', '#008080')])
 
 
 style_button_erase = ttk.Style()
-style_button_erase.configure('Button_Eraser.TButton', font="consolas 22", width=5, background="#CECECE", relief="flat")
-style_button_erase.map('Button_Eraser.TButton', foreground=[('active', '#FF0000')], background=[('active', '#858585')])
+style_button_erase.configure('Button_Eraser.TButton', font="consolas 22", width=5, background="#CECECE", relief="flat", foreground="#333333")
+style_button_erase.map('Button_Eraser.TButton', foreground=[('active', '#333333')], background=[('active', '#008080')])
 
 style_button_left = ttk.Style()
-style_button_left.configure('Button_left.TButton', font="consolas 22", width=5, background="#CECECE", relief="flat")
-style_button_left.map('Button_left.TButton', background=[('active', '#858585')])
+style_button_left.configure('Button_left.TButton', font="consolas 22", width=5, background="#CECECE", relief="flat", foreground="#333333")
+style_button_left.map('Button_left.TButton', background=[('active', '#008080')])
 
 
 #Input Numbers of Calculator
