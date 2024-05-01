@@ -1,4 +1,5 @@
 Calculadora Python
+
 Este es un proyecto de calculadora desarrollado en Python, diseñado para realizar operaciones matemáticas básicas de manera eficiente y fácil de usar. La calculadora admite operaciones aritméticas simples, como suma, resta, multiplicación, división, y raíz cuadrada.
 
 Características:
